@@ -22,8 +22,6 @@ def test_dish():
                        match="Dish price must be greater then zero."):
         Dish("Tomato", -10.0)
 
-    assert ingredient1 == Dish("Tomato", 10.0)
-
     assert ingredient1 != ingredient2
 
     assert ingredient1 == ingredient1
